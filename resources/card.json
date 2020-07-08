@@ -1,0 +1,44 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      
+      {
+        "type": "TextBlock",
+        "spacing": "medium",
+      "size": "default",
+        "weight": "bolder",
+        "text": "Please make note of the ticket I have created:",
+      "wrap": true,
+        "maxLines": 0
+      },
+   
+    {
+        "type": "TextBlock",
+        "text": "Incident # INC123456"
+        
+      },
+      {
+        "type": "TextBlock",
+                        "text": "Issue Description : Issue in create incident" 
+                        
+      },
+      {
+        "type": "TextBlock",
+        "text": "Assigned Group: Service Desk"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Priority: Medium"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Date: 08/07/2020" 
+      }
+      
+
+      
+    ]
+  }
+  
